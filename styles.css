@@ -1,0 +1,90 @@
+body{
+    font-family: sans-serif;   /*Tipo de fuente del texto*/
+    text-align: center; /* Alineación del texto*/
+    background-color:#e5e5e5;
+    margin: 10px;  /* Que tanto quiero de margen*/
+
+
+}
+
+#greeting{
+    color: #c44900;
+}
+
+input{
+    display: block; /* Alínea las entradas una sobre otra*/
+    margin: auto;
+    margin-bottom: 20px; /* Da espacio entre entrada y entrada*/
+}
+
+#viewOrder {
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #15616d; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Si quiero o no borde */
+    border-radius: 25px; /* Que tan redondeados quiero los bordes */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 15px; /* Es el tamaño de la letra */
+}
+
+#viewOrder:hover {
+    background-color: #001524; /* Cambia el color de fondo al pasar el mouse */
+}
+
+#viewOrder:active {
+    background-color: #c44900; /* Cambia el color de fondo al hacer clic */
+}
+
+#viewNewOrder {
+    padding: 10px 20px; 
+    background-color: #15616d; 
+    color: white; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    font-size: 15px; 
+}
+
+#viewNewOrder:hover {
+    background-color: #001524; 
+}
+
+#viewNewOrder:active {
+    background-color: #c44900; 
+}
+
+#highest {
+    padding: 10px 20px; 
+    background-color: #15616d; 
+    color: white; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    font-size: 15px; 
+}
+
+#highest:hover {
+    background-color: #001524;
+}
+
+#highest:active {
+    background-color: #c44900;
+}
+
+#lowest {
+    padding: 10px 20px;
+    background-color: #15616d;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#lowest:hover {
+    background-color: #001524;
+}
+
+#lowest:active {
+    background-color: #c44900;
+}

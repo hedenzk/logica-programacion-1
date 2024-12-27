@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Práctica de comparación de números</title>
+    <script src = "index2.js" defer></script> <!--Defer permite que el navegador ejecute el script después de analizar y completar el HTML-->
+</head>
+<body>
+
+    <h1 id="greeting">Hello there! Let's compare numbers!</h1> 
+    <hr>
+    <h3>This is your first number</h3>
+    <input type="text" id="number1" placeholder="Please enter number one">
+    <h3>This is your second number</h3>
+    <input type="text" id="number2" placeholder="Please enter number two">
+    <h3>This is your third number</h3>
+    <input type="text" id="number3" placeholder="Please enter number three">
+    <input type="button" value="View numerical order" id="viewOrder">
+    <p id="numbers"></p>
+    <hr>
+    <h2>Do you want to know the highest, middle and lowest number? Click below to find out!</h2>
+    <input type="button" value="View new numerical order" id="viewNewOrder">
+    <p id="newOrder"></p>
+    <hr>
+    <h2>Now let's sort the numbers:</h2>
+    <input type="button" value="From highest to lowest" id="highest">
+    <p id="pHighest"></p>
+    <input type="button" value="From lowest to highest" id="lowest">
+    <p id="pLowest"></p>
+    <hr>
+</body>
+</html>
